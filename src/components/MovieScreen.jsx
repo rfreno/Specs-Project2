@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCard from "./MovieCard";
+import './MovieScreen.css'
 
 const MovieScreen = ({ addMovie, movieList, page, setPage, list, removeMovie}) => {
     const movieDisplay = movieList.map((movie, index) => {
@@ -18,6 +19,7 @@ const MovieScreen = ({ addMovie, movieList, page, setPage, list, removeMovie}) =
                 <button onClick={increment}>Next</button>
             </div>
             <div className="movie-container">
+                <h2>Movie List (Page {page})</h2>
                 {movieDisplay}
             </div>
         </div>

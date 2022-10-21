@@ -1,4 +1,5 @@
 import React from "react";
+import './MovieCard.css'
 
 const MovieCard = ({ movie, addMovie, removeMovie, list }) => {
   const inWatchlist = list.filter((mov) => {

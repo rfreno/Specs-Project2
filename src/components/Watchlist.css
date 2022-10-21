@@ -1,0 +1,12 @@
+.watchlist {
+    float:left;
+    width:25%;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-content: center;
+}
+
+.movie-container-catchlist {
+    width:100%;
+}

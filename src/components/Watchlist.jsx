@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCard from "./MovieCard";
+import './Watchlist.css'
 
 const Watchlist = ({ list, removeMovie }) => {
   const movieDisplay = list.map((movie, index) => {
@@ -7,8 +8,8 @@ const Watchlist = ({ list, removeMovie }) => {
   });
   return (
     <div className="watchlist">
-      <h1>My Watchlist</h1>
-      <div className="movie-container">{movieDisplay}</div>
+      <h2>My Watchlist</h2>
+      <div className="movie-container-watchlist">{movieDisplay}</div>
     </div>
   );
 };

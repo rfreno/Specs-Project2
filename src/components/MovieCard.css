@@ -1,0 +1,17 @@
+img {
+    height:200px;
+    width:auto;
+}
+
+* {
+    background-color: black;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.movie-card {
+    margin:10px;
+}

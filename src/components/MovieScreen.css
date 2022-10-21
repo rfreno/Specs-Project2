@@ -1,0 +1,8 @@
+.movie-container {
+  display: flexbox;
+  float:left;
+  /* align-content: flex-start; */
+  width: 75%;
+  background-color: black;
+  /* flex-flow: row wrap; */
+}
